@@ -3,6 +3,14 @@
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
 
+<c:set var="theLocale" 
+value = "${not empty param.theLocale ? param.theLocale : pageContext.request.locale}"
+scope="session" />
+
+<fmt:setLocale value="${theLocale}" />
+
+<fmt:setBundle basename="com.tutorials.jsp.tagdemo.i18n.resources.mylabels" />
+
 <html>
 
 <body>
