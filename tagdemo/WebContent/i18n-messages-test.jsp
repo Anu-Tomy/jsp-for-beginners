@@ -30,6 +30,9 @@ scope="session" />
 
 <fmt:message key="label.welcome" /> <br>
 
+<hr>
+
+Selected locale: ${theLocale}
 
 </body>
 
