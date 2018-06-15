@@ -12,7 +12,7 @@ public class StudentDataUtil {
 		
 		//Add sample data
 		students.add(new Student("Mary", "Ann", "mary@gmail.com"));
-		students.add(new Student("Jim", "John", "Jim@gmail.com"));
+		students.add(new Student("Jim", "John", "jim@gmail.com"));
 		students.add(new Student("Tom", "Alex", "tom@gmail.com"));
 		
 		//Return the list
